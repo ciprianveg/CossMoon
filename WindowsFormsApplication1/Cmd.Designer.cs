@@ -44,6 +44,8 @@
             this.cancelButton = new System.Windows.Forms.Button();
             this.helpButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.backButton = new System.Windows.Forms.Button();
+            this.quitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // outputField
@@ -150,10 +152,26 @@
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
             // 
+            // backButton
+            // 
+            resources.ApplyResources(this.backButton, "backButton");
+            this.backButton.Name = "backButton";
+            this.backButton.UseVisualStyleBackColor = true;
+            this.backButton.Click += new System.EventHandler(this.backButton_Click);
+            // 
+            // quitButton
+            // 
+            resources.ApplyResources(this.quitButton, "quitButton");
+            this.quitButton.Name = "quitButton";
+            this.quitButton.UseVisualStyleBackColor = true;
+            this.quitButton.Click += new System.EventHandler(this.quitButton_Click);
+            // 
             // Cmd
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.quitButton);
+            this.Controls.Add(this.backButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.helpButton);
             this.Controls.Add(this.cancelButton);
@@ -192,6 +210,8 @@
         private System.Windows.Forms.Button cancelButton;
         private System.Windows.Forms.Button helpButton;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button backButton;
+        private System.Windows.Forms.Button quitButton;
     }
 }
 

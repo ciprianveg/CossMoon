@@ -141,7 +141,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;outputField.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>16</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
     <value>688, 122</value>
@@ -165,7 +165,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>15</value>
   </data>
   <data name="inputField.Location" type="System.Drawing.Point, System.Drawing">
     <value>182, 125</value>
@@ -186,7 +186,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;inputField.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>14</value>
   </data>
   <data name="buyButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>76, 38</value>
@@ -210,7 +210,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buyButton.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>13</value>
   </data>
   <data name="sellButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>76, 82</value>
@@ -234,7 +234,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;sellButton.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
   </data>
   <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -243,7 +243,7 @@
     <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
   </data>
   <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1029, 41</value>
+    <value>1090, 40</value>
   </data>
   <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 20</value>
@@ -264,10 +264,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="balanceButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>226, 38</value>
+    <value>223, 38</value>
   </data>
   <data name="balanceButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 23</value>
@@ -288,10 +288,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;balanceButton.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="pairDepthButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>226, 82</value>
+    <value>223, 81</value>
   </data>
   <data name="pairDepthButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 23</value>
@@ -312,10 +312,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pairDepthButton.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="orderHistoryButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 38</value>
+    <value>409, 38</value>
   </data>
   <data name="orderHistoryButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 23</value>
@@ -336,10 +336,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;orderHistoryButton.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="checkMarketParirsButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 82</value>
+    <value>409, 82</value>
   </data>
   <data name="checkMarketParirsButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 23</value>
@@ -360,10 +360,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkMarketParirsButton.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="marketTickerDataButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>611, 38</value>
+    <value>591, 38</value>
   </data>
   <data name="marketTickerDataButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>152, 23</value>
@@ -384,10 +384,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;marketTickerDataButton.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="allTickerDataButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>611, 82</value>
+    <value>591, 82</value>
   </data>
   <data name="allTickerDataButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>152, 23</value>
@@ -408,10 +408,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;allTickerDataButton.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="cancelButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>833, 38</value>
+    <value>803, 38</value>
   </data>
   <data name="cancelButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 23</value>
@@ -432,10 +432,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cancelButton.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="helpButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>833, 82</value>
+    <value>803, 82</value>
   </data>
   <data name="helpButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 23</value>
@@ -456,7 +456,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;helpButton.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -483,6 +483,54 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="backButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>963, 38</value>
+  </data>
+  <data name="backButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="backButton.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="backButton.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="&gt;&gt;backButton.Name" xml:space="preserve">
+    <value>backButton</value>
+  </data>
+  <data name="&gt;&gt;backButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;backButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="quitButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>963, 81</value>
+  </data>
+  <data name="quitButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="quitButton.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="quitButton.Text" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="&gt;&gt;quitButton.Name" xml:space="preserve">
+    <value>quitButton</value>
+  </data>
+  <data name="&gt;&gt;quitButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quitButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;quitButton.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

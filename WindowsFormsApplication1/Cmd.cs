@@ -47,6 +47,7 @@ namespace WindowsFormsApplication1
             ps.CreateNoWindow = true;
             ps.StandardErrorEncoding = Encoding.ASCII;
             ps.StandardOutputEncoding = Encoding.ASCII;
+            ps.WorkingDirectory = "C:\\Windows";
             try
             {
                 p = Process.Start(ps);
@@ -132,7 +133,17 @@ namespace WindowsFormsApplication1
                 inputStream.Flush();
             }
         }
-
+        void Send(string text)
+        {
+            text = text + "\n";
+            this.inputField.Text = "";
+            byte[] bytes = Encoding.ASCII.GetBytes(text);
+            if (bytes != null)
+            {
+                inputStream.BaseStream.Write(bytes, 0, bytes.Length);
+                inputStream.Flush();
+            }
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             Send();
@@ -140,57 +151,68 @@ namespace WindowsFormsApplication1
 
         private void buy_Click(object sender, EventArgs e)
         {
-
+            Send("2");
         }
 
         private void sellButton_Click(object sender, EventArgs e)
         {
-
+            Send("3");
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (checkBox1.Checked) Send("m");
+            else Send("a");
         }
 
         private void balance_Click(object sender, EventArgs e)
         {
-
+            Send("1");
         }
 
         private void cancelButton_Click(object sender, EventArgs e)
         {
-
+            Send("4");
         }
 
         private void helpButton_Click(object sender, EventArgs e)
         {
-
+            Send("h");
         }
 
         private void pairDepthButton_Click(object sender, EventArgs e)
         {
-
+            Send("5");
         }
 
         private void orderHistoryButton_Click(object sender, EventArgs e)
         {
-
+            Send("6");
         }
 
         private void checkMarketParirsButton_Click(object sender, EventArgs e)
         {
-
+            Send("7");
         }
 
         private void marketTickerDataButton_Click(object sender, EventArgs e)
         {
-
+            Send("8");
         }
 
         private void allTickerDataButton_Click(object sender, EventArgs e)
         {
+            Send("9");
+        }
 
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            Send("b");
+        }
+
+        private void quitButton_Click(object sender, EventArgs e)
+        {
+            Send("q");
         }
     }
 }
